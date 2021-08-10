@@ -31,7 +31,7 @@ public class MyController {
 			return "form";
 		}
 
-		System.out.println(loginData);
+		System.out.println("user data :- "+loginData);
 		// process data
 
 		return "success";
